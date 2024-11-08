@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pen"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:fontFamily="@font/dancing_script"
+        android:text="If you wish to forget anything on the spot then makes notes that this is to be remebered - Edgar Allan Poe"
+        android:textColor="#CFBEBE"
+        android:letterSpacing="0.1"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Get started"
+            android:id="@+id/mtbt1"
+            android:layout_marginTop="250dp"
+            android:textSize="30sp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            app:cornerRadius="50dp"
+            app:backgroundTint="@color/black"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            />
+
+
+
+
+</LinearLayout>
